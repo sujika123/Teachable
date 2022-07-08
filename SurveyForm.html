@@ -1,0 +1,85 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device width, initial-scale=1.0">
+            <title>Survey Form</title>
+            <style>
+                body {
+                    background-color: rgb(43, 174, 226);
+                }
+             table  {
+                background-color: rgb(252, 244, 228);
+                text-align: center;
+                            
+                }
+
+            </style>
+           
+    
+        </head>
+        <body>
+            <form>
+            <center>
+                <br>
+            <h1>Survey Form</h1>
+            <table>
+                <center>
+                <tr>
+                <td>Let us know how we can improve freeCodeCamp</td><br><br><br>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Enter your name" required="" pattern="[0-9]{10}"><br><br></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name=" " id=" " placeholder="Enter your email"><br><br></td>
+                </tr>
+
+                <!-- age : <input type="number" value="10"><br><br> -->
+
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" value="10" placeholder="Age"  required="" pattern="[0-9]{10}"><br><br><br><br></td><br>
+                </tr>
+                <tr>
+                    <td>Which option best describes your current role?</td>
+                    <td><select>
+                        <option>Student</option>
+                        <option>Kozhikode</option>
+                        <option>Wayanad</option>
+                        <option>Kannur</option>
+                    </select><br>
+                        <br><br></td>
+                    
+                </tr>
+                <tr>
+                    <td>How likely is that you would recommend freeCodeCamp to a friend?</td>
+                    <td><input type="radio" name="HOBBIES">Definitely<br> <input type="radio" name="HOBBIES">Maybe<br> <input type="radio" name="HOBBIES">Not sure
+                        <br><br><br></td>
+                </tr>
+
+                <tr>
+                    <td>What do you like most in FCC</td>
+                    <td><select>
+                        <option>Select an option</option>
+                        <option>Kozhikode</option>
+                        <option>Wayanad</option>
+                        <option>Kannur</option>
+                    </select><br>
+                        <br><br></td>
+                </tr>
+                <tr>
+                    <td>Things that should be improved in the future (Check all that apply)</td>
+                <td><input type="checkbox">Front-end Project<br> <input type="checkbox">Back-end Project<br> <input type="checkbox">Data visualization<br><br></td>
+                </tr>       
+               
+                </center>
+    
+            </table>
+           </center>
+    </form>
+        </body>
+    </html>
